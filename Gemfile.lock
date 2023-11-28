@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    discogs-wrapper (2.5.1)
+      hashie (~> 3.0)
+      httparty (~> 0.14)
+      oauth (~> 0.5.1)
+    dotenv (2.8.1)
+    hashie (3.6.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
+    mini_mime (1.1.5)
+    multi_xml (0.6.0)
+    oauth (0.5.14)
+
+PLATFORMS
+  arm64-darwin-23
+
+DEPENDENCIES
+  discogs-wrapper
+  dotenv
+
+BUNDLED WITH
+   2.4.10
