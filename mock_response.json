@@ -1,0 +1,75 @@
+{
+  "pagination": {
+    "page": 1,
+    "pages": 92,
+    "per_page": 50,
+    "items": 4572,
+    "urls": {
+      "last": "https://api.discogs.com/users/lastvestige/inventory?format=Cassette&page=92&per_page=50",
+      "next": "https://api.discogs.com/users/lastvestige/inventory?format=Cassette&page=2&per_page=50"
+    }
+  },
+  "listings": [
+    {
+      "id": 1603654261,
+      "resource_url": "https://api.discogs.com/marketplace/listings/1603654261",
+      "uri": "https://www.discogs.com/sell/item/1603654261",
+      "status": "For Sale",
+      "condition": "Near Mint (NM or M-)",
+      "sleeve_condition": "Near Mint (NM or M-)",
+      "comments": "Nice copy! Clean labels Nice Picture sleeve ***Buy 5 items, get lowest priced item FREE!!!***",
+      "ships_from": "United States",
+      "posted": "2023-04-20T13:52:07-07:00",
+      "allow_offers": false,
+      "audio": false,
+      "price": {
+        "value": 5.0,
+        "currency": "USD"
+      },
+      "original_price": {
+        "curr_abbr": "USD",
+        "curr_id": 1,
+        "formatted": "$5.00",
+        "value": 5.0
+      },
+      "shipping_price": {},
+      "original_shipping_price": {},
+      "seller": {
+        "id": 1829969,
+        "username": "lastvestige",
+        "avatar_url": "https://i.discogs.com/N0VZPvzF9q9XczQOVf8-g2C05gRx5y_HyT0Wj7iFvYY/rs:fill/g:sm/q:40/h:500/w:500/czM6Ly9kaXNjb2dz/LXVzZXItYXZhdGFy/cy9VLTE4Mjk5Njkt/MTYyMDQyNzIwMi5q/cGVn.jpeg",
+        "stats": {
+          "rating": "100.0",
+          "stars": 5.0,
+          "total": 4358
+        },
+        "min_order_total": 0.0,
+        "html_url": "https://www.discogs.com/user/lastvestige",
+        "uid": 1829969,
+        "url": "https://api.discogs.com/users/lastvestige",
+        "payment": "PayPal Commerce",
+        "shipping": "*********  BUY ANY 5 ITEMS AND RECEIVE THE LOWEST PRICED ITEM FOR FREE!!!!!!! BUYER IS RESPONSIBLE FOR ANY RELATED POSTAGE COSTS  *********\r\n",
+        "resource_url": "https://api.discogs.com/users/lastvestige"
+      },
+      "release": {
+        "thumbnail": "",
+        "description": "Al Jarreau - Moonlighting Theme (7\", Single)",
+        "images": [],
+        "artist": "Al Jarreau",
+        "format": "7\", Single",
+        "resource_url": "https://api.discogs.com/releases/1171786",
+        "title": "Moonlighting Theme",
+        "year": 1987,
+        "id": 1171786,
+        "label": "MCA Records",
+        "catalog_number": "MCA-53124",
+        "stats": {
+          "community": {
+            "in_wantlist": 23,
+            "in_collection": 265
+          }
+        }
+      }
+    }
+  ]
+}

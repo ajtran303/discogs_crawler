@@ -1,25 +1,48 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    base64 (0.2.0)
+    debug (1.8.0)
+      irb (>= 1.5.0)
+      reline (>= 0.3.1)
     discogs-wrapper (2.5.1)
       hashie (~> 3.0)
       httparty (~> 0.14)
       oauth (~> 0.5.1)
     dotenv (2.8.1)
+    faraday (2.7.12)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
     hashie (3.6.0)
     httparty (0.21.0)
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
+    io-console (0.6.0)
+    irb (1.9.1)
+      rdoc
+      reline (>= 0.3.8)
     mini_mime (1.1.5)
     multi_xml (0.6.0)
     oauth (0.5.14)
+    psych (5.1.1.1)
+      stringio
+    rdoc (6.6.0)
+      psych (>= 4.0.0)
+    reline (0.4.1)
+      io-console (~> 0.5)
+    ruby2_keywords (0.0.5)
+    stringio (3.1.0)
 
 PLATFORMS
   arm64-darwin-23
 
 DEPENDENCIES
+  debug
   discogs-wrapper
   dotenv
+  faraday
 
 BUNDLED WITH
    2.4.10
